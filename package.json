@@ -1,0 +1,16 @@
+{
+  "name": "telegram-haber-botu-plus",
+  "version": "1.1.0",
+  "description": "Telegram Haber Botu (kategoriler, anahtar kelime filtresi, çalışma saatleri)",
+  "main": "bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "node-fetch": "^2.7.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "rss-parser": "^3.13.0"
+  }
+}
